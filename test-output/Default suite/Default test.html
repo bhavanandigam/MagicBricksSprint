@@ -1,0 +1,437 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 13:14:40 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>969 seconds (969854 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to navigate project and view all the details", "See all projects that are in a locality"<br/>
+<a href="#Output-285301920" onClick='toggleBox("Output-285301920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285301920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285301920">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on see all projects button<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project(SeeAllProjects.java:34)
+	at ✽.the user should click on a project(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace285301920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace285301920'><pre>java.lang.AssertionError: expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project(SeeAllProjects.java:34)
+	at ✽.the user should click on a project(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:12)
+</pre></div></td>
+<td>61</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to navigate to price and trends and choose them for sale", "Price Trends for sale"<br/>
+<a href="#Output-1846351524" onClick='toggleBox("Output-1846351524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1846351524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1846351524">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on explore locality button<br/>
+User navigated to the locality page<br/>
+User is able to click on price and trends options<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 2 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1846351524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846351524'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 2 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div></td>
+<td>96</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to navigate to price and trends and choose them for sale", "Price Trends for sale"<br/>
+<a href="#Output-939455271" onClick='toggleBox("Output-939455271", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939455271" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939455271">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on explore locality button<br/>
+User navigated to the locality page<br/>
+User is able to click on price and trends options<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 3 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace939455271", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace939455271'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 3 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div></td>
+<td>97</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can login to the application", "Login"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The Browser should be launched and URL should be navigated&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The Browser should be launched and URL should be navigated&quot;)
+public void the_browser_should_be_launched_and_url_should_be_navigated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user should be able to enter valid credentails and click on next button&quot;)
+public void user_should_be_able_to_enter_valid_credentails_and_click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser should be closed&quot;)
+public void browser_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace440307236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace440307236'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The Browser should be launched and URL should be navigated&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The Browser should be launched and URL should be navigated&quot;)
+public void the_browser_should_be_launched_and_url_should_be_navigated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user should be able to enter valid credentails and click on next button&quot;)
+public void user_should_be_able_to_enter_valid_credentails_and_click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser should be closed&quot;)
+public void browser_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>86</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to navigate to price and trends and choose them for sale", "Price Trends for sale"<br/>
+<a href="#Output-222088774" onClick='toggleBox("Output-222088774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-222088774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-222088774">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on explore locality button<br/>
+User navigated to the locality page<br/>
+User is able to click on price and trends options<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 4 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace222088774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace222088774'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 4 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</pre></div></td>
+<td>94</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to calculate the property worth", "Property worth"<br/>
+<a href="#Output-1730688778" onClick='toggleBox("Output-1730688778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730688778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730688778">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on property worth button<br/>
+The user filled the details of the property worth<br/>
+</div>
+</td>
+<td></td>
+<td>97</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user able to navigate Explore rates and trends in detail link", "Explore Locality"<br/>
+<a href="#Output-1564473433" onClick='toggleBox("Output-1564473433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1564473433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1564473433">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+Explore Locality button is displayed.<br/>
+Clicked on Explore Locality button.<br/>
+Rates and Trends button is displayed.<br/>
+Clicked on Rates and Trends button.<br/>
+</div>
+</td>
+<td></td>
+<td>98</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort localities by rating", "Sorting Localities"<br/>
+<a href="#Output-820117866" onClick='toggleBox("Output-820117866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-820117866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-820117866">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User is able to sort the localities using rating filter<br/>
+User is able to sort the localities using rating filter<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user should be able to hover on MBAdvice link", "MBAdvice Open"<br/>
+<a href="#Output-1178605914" onClick='toggleBox("Output-1178605914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178605914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178605914">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to navigate to price and trends and choose them for sale", "Price Trends for sale"<br/>
+<a href="#Output-784882213" onClick='toggleBox("Output-784882213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-784882213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-784882213">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User clicked on explore locality button<br/>
+User navigated to the locality page<br/>
+User is able to click on price and trends options<br/>
+</div>
+</td>
+<td></td>
+<td>92</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able see the readmore data", "Readmore about the localitiy"<br/>
+<a href="#Output-1280363901" onClick='toggleBox("Output-1280363901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1280363901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1280363901">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+The 'Read More' option is displayed.<br/>
+Clicked on 'Read less' option.<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort localities by ranking", "Sorting Localities"<br/>
+<a href="#Output-6635131" onClick='toggleBox("Output-6635131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6635131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6635131">
+User navigated to magicbricks url<br/>
+User is Hover on MbAdvicelink<br/>
+User is able to see the sub-options<br/>
+User successfully navigated to the localities page in Bangalore<br/>
+User is able to sort the localities using ranking filter<br/>
+User is able to sort the localities using ranking filter<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.runners.CucumberRunner@548e6d58</td></tr>
+</table><p>
+</body>
+</html>

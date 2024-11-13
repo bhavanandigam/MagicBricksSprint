@@ -1,0 +1,3 @@
+file:src/test/resources/featurefiles/login.feature:3
+file:src/test/resources/featurefiles/mbAdvicePriceTrends.feature:19:20:21
+file:src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:4

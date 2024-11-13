@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="965.83" tests="12" skipped="0" failures="5" errors="0">
+<testcase classname="Login" name="Validate that the user can login to the application" time="86.376">
+<failure/>
+<system-out><![CDATA[
+Given The Browser should be launched and URL should be navigated............undefined
+When user should be able to hover on login link.............................skipped
+And user should be able to click on login button and navigate to the login page.skipped
+And user should be able to enter valid credentails and click on next button.skipped
+And user should be able to click on continue................................skipped
+Then user should be logged in...............................................skipped
+And browser should be closed................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Explore Locality" name="Validate user able to navigate Explore rates and trends in detail link" time="98.887">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And the user clicks on explore locality button..............................passed
+And the user clicks on explore rates and trends in detail...................passed
+]]></system-out>
+</testcase>
+<testcase classname="MBAdvice Open" name="Validate user should be able to hover on MBAdvice link" time="54.475">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+]]></system-out>
+</testcase>
+<testcase classname="Price Trends for sale" name="Validate user is able to navigate to price and trends and choose them for sale - Example #1.1" time="92.803">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And user should be able to click on the explorelocality.....................passed
+And user is navigate to the locality page...................................passed
+Then click on the Price and Trends option...................................passed
+Then click on the 1 in the for sale section.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Price Trends for sale" name="Validate user is able to navigate to price and trends and choose them for sale - Example #1.2" time="96.968">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 2 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And user should be able to click on the explorelocality.....................passed
+And user is navigate to the locality page...................................passed
+Then click on the Price and Trends option...................................passed
+Then click on the 2 in the for sale section.................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Price Trends for sale" name="Validate user is able to navigate to price and trends and choose them for sale - Example #1.3" time="97.56">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 3 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And user should be able to click on the explorelocality.....................passed
+And user is navigate to the locality page...................................passed
+Then click on the Price and Trends option...................................passed
+Then click on the 3 in the for sale section.................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Price Trends for sale" name="Validate user is able to navigate to price and trends and choose them for sale - Example #1.4" time="94.605">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 4 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And user should be able to click on the explorelocality.....................passed
+And user is navigate to the locality page...................................passed
+Then click on the Price and Trends option...................................passed
+Then click on the 4 in the for sale section.................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Property worth" name="Validate user is able to calculate the property worth" time="97.676">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+Then user should be able to click on propertyworth button in a locality.....passed
+And fill the requirments....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Readmore about the localitiy" name="Validate user is able see the readmore data" time="64.652">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+Then click on the read more option and see te read more data................passed
+]]></system-out>
+</testcase>
+<testcase classname="See all projects that are in a locality" name="Validate user is able to navigate project and view all the details" time="61.548">
+<failure type="java.lang.AssertionError" message="expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]">
+<![CDATA[java.lang.AssertionError: expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project(SeeAllProjects.java:34)
+	at ✽.the user should click on a project(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+And the user should click on the see all projects button....................passed
+And the user should click on a project......................................failed
+And click on the Amenities link and return to the project details page......skipped
+Then click on the Specifications............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sorting Localities" name="Sort localities by rating" time="59.537">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+Then the user should be able to sort the localities using rating............passed
+And the localities sorted by rating are displayed...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sorting Localities" name="Sort localities by ranking" time="59.637">
+<system-out><![CDATA[
+Given the browser is open and the URL is navigating to the webpage..........passed
+When the user hovers on the MB Advice option................................passed
+And the user should be able to see sub-options in the MbAdvice..............passed
+Then user should be click on localities and  should navigate to the localities in banglore.passed
+Then the user should be able to sort the localities using ranking...........passed
+And the localities sorted by ranking are displayed..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

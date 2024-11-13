@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="7" failed="5" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[Explore Locality button is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Explore Locality button.]]>
+    </line>
+    <line>
+      <![CDATA[Rates and Trends button is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Rates and Trends button.]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on explore locality button]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the locality page]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on price and trends options]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on explore locality button]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the locality page]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on price and trends options]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on explore locality button]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the locality page]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on price and trends options]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on explore locality button]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to the locality page]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on price and trends options]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on property worth button]]>
+    </line>
+    <line>
+      <![CDATA[The user filled the details of the property worth]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[The 'Read More' option is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Read less' option.]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on see all projects button]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User is able to sort the localities using rating filter]]>
+    </line>
+    <line>
+      <![CDATA[User is able to sort the localities using rating filter]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to magicbricks url]]>
+    </line>
+    <line>
+      <![CDATA[User is Hover on MbAdvicelink]]>
+    </line>
+    <line>
+      <![CDATA[User is able to see the sub-options]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[User is able to sort the localities using ranking filter]]>
+    </line>
+    <line>
+      <![CDATA[User is able to sort the localities using ranking filter]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:14:40 IST" name="Default suite" finished-at="2024-11-13T13:30:50 IST" duration-ms="969854">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T13:14:40 IST" name="Default test" finished-at="2024-11-13T13:30:50 IST" duration-ms="969854">
+      <class name="com.runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:14:40 IST" name="setUpClass" finished-at="2024-11-13T13:14:43 IST" duration-ms="2561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77b27b57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:14:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:16:09 IST" duration-ms="86565" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user can login to the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'The Browser should be launched and URL should be navigated' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("The Browser should be launched and URL should be navigated")
+public void the_browser_should_be_launched_and_url_should_be_navigated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user should be able to enter valid credentails and click on next button")
+public void user_should_be_able_to_enter_valid_credentails_and_click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("browser should be closed")
+public void browser_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'The Browser should be launched and URL should be navigated' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("The Browser should be launched and URL should be navigated")
+public void the_browser_should_be_launched_and_url_should_be_navigated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user should be able to enter valid credentails and click on next button")
+public void user_should_be_able_to_enter_valid_credentails_and_click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("browser should be closed")
+public void browser_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:16:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:17:48 IST" duration-ms="98959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user able to navigate Explore rates and trends in detail link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Explore Locality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[Explore Locality button is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Explore Locality button.]]>
+            </line>
+            <line>
+              <![CDATA[Rates and Trends button is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Rates and Trends button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:17:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:18:43 IST" duration-ms="54520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user should be able to hover on MBAdvice link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MBAdvice Open"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:18:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:20:16 IST" duration-ms="92868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to price and trends and choose them for sale"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Price Trends for sale"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on explore locality button]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the locality page]]>
+            </line>
+            <line>
+              <![CDATA[User is able to click on price and trends options]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:20:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:21:53 IST" duration-ms="96983" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to price and trends and choose them for sale"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Price Trends for sale"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+at ✽.click on the 2 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on explore locality button]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the locality page]]>
+            </line>
+            <line>
+              <![CDATA[User is able to click on price and trends options]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:21:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:23:30 IST" duration-ms="97581" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to price and trends and choose them for sale"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Price Trends for sale"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+at ✽.click on the 3 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on explore locality button]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the locality page]]>
+            </line>
+            <line>
+              <![CDATA[User is able to click on price and trends options]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:23:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:25:05 IST" duration-ms="94624" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to price and trends and choose them for sale"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Price Trends for sale"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+at ✽.click on the 4 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on explore locality button]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to the locality page]]>
+            </line>
+            <line>
+              <![CDATA[User is able to click on price and trends options]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:25:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:26:43 IST" duration-ms="97710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to calculate the property worth"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Property worth"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on property worth button]]>
+            </line>
+            <line>
+              <![CDATA[The user filled the details of the property worth]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:26:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:27:47 IST" duration-ms="64658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able see the readmore data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Readmore about the localitiy"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[The 'Read More' option is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Read less' option.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:27:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:28:49 IST" duration-ms="61556" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate project and view all the details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["See all projects that are in a locality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project(SeeAllProjects.java:34)
+at ✽.the user should click on a project(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on see all projects button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:28:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:29:48 IST" duration-ms="59545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort localities by rating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sorting Localities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User is able to sort the localities using rating filter]]>
+            </line>
+            <line>
+              <![CDATA[User is able to sort the localities using rating filter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:29:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:30:48 IST" duration-ms="59645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort localities by ranking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sorting Localities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User navigated to magicbricks url]]>
+            </line>
+            <line>
+              <![CDATA[User is Hover on MbAdvicelink]]>
+            </line>
+            <line>
+              <![CDATA[User is able to see the sub-options]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to the localities page in Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[User is able to sort the localities using ranking filter]]>
+            </line>
+            <line>
+              <![CDATA[User is able to sort the localities using ranking filter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.CucumberRunner@548e6d58]" started-at="2024-11-13T13:30:48 IST" name="tearDownClass" finished-at="2024-11-13T13:30:50 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

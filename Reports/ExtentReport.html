@@ -1,0 +1,1136 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 13, 2024 01:14:40 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>1:14:43 pm</span> / <span>00:01:26:229</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login</h5>
+<span class='badge badge-success'>11.13.2024 1:14:43 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:16:09 pm</span>
+<span class='badge badge-default'>00:01:26:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Validate that the user can login to the application</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given The Browser should be launched and URL should be navigated</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.loginn.user_should_be_able_to_hover_on_login_link()">
+                <span>When user should be able to hover on login link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.loginn.user_should_be_able_to_click_on_login_button_and_navigate_to_the_login_page()">
+                <span>And user should be able to click on login button and navigate to the login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>And user should be able to enter valid credentails and click on next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.loginn.user_should_be_able_to_click_on_continue()">
+                <span>And user should be able to click on continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.loginn.user_should_be_logged_in()">
+                <span>Then user should be logged in</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>And browser should be closed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Explore Locality</p>
+            <p class="text-sm">
+              <span>1:16:09 pm</span> / <span>00:01:38:884</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Explore Locality</h5>
+<span class='badge badge-success'>11.13.2024 1:16:09 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:17:48 pm</span>
+<span class='badge badge-default'>00:01:38:884</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Validate user able to navigate Explore rates and trends in detail link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ExploreRates.the_user_clicks_on_explore_locality_button()">
+                <span>And the user clicks on explore locality button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ExploreRates.the_user_clicks_on_explore_rates_and_trends_in_detail()">
+                <span>And the user clicks on explore rates and trends in detail</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MBAdvice Open</p>
+            <p class="text-sm">
+              <span>1:17:48 pm</span> / <span>00:00:54:472</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MBAdvice Open</h5>
+<span class='badge badge-success'>11.13.2024 1:17:48 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:18:43 pm</span>
+<span class='badge badge-default'>00:00:54:472</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Validate user should be able to hover on MBAdvice link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Price Trends for sale</p>
+            <p class="text-sm">
+              <span>1:18:43 pm</span> / <span>00:06:21:993</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Price Trends for sale</h5>
+<span class='badge badge-success'>11.13.2024 1:18:43 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:25:05 pm</span>
+<span class='badge badge-default'>00:06:21:993</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate to price and trends and choose them for sale</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="32"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to navigate to price and trends and choose them for sale</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on the explorelocality</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user is navigate to the locality page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on the Price and Trends option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on the 1 in the for sale section</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate to price and trends and choose them for sale</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on the explorelocality</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user is navigate to the locality page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on the Price and Trends option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then click on the 2 in the for sale section</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 2 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="54"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate to price and trends and choose them for sale</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on the explorelocality</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user is navigate to the locality page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on the Price and Trends option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then click on the 3 in the for sale section</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 3 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate to price and trends and choose them for sale</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on the explorelocality</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user is navigate to the locality page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on the Price and Trends option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then click on the 4 in the for sale section</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+	at com.utilityClasses.FileUtility.getDataFromExcel(FileUtility.java:20)
+	at com.stepDefinition.PriceAndTrends.click_on_the_in_the_for_sale_section(PriceAndTrends.java:48)
+	at ✽.click on the 4 in the for sale section(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdvicePriceTrends.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="76"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Property worth</p>
+            <p class="text-sm">
+              <span>1:25:05 pm</span> / <span>00:01:37:669</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Property worth</h5>
+<span class='badge badge-success'>11.13.2024 1:25:05 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:26:43 pm</span>
+<span class='badge badge-default'>00:01:37:669</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=76</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to calculate the property worth</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.PropertyWorth.user_should_be_able_to_click_on_propertyworth_button_in_a_locality()">
+                <span>Then user should be able to click on propertyworth button in a locality</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.PropertyWorth.fill_the_requirments()">
+                <span>And fill the requirments</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="86"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Readmore about the localitiy</p>
+            <p class="text-sm">
+              <span>1:26:43 pm</span> / <span>00:01:04:651</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Readmore about the localitiy</h5>
+<span class='badge badge-success'>11.13.2024 1:26:43 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:27:47 pm</span>
+<span class='badge badge-default'>00:01:04:651</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=86</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="87"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able see the readmore data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ReadMore.click_on_the_read_more_option_and_see_te_read_more_data()">
+                <span>Then click on the read more option and see te read more data</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="95"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">See all projects that are in a locality</p>
+            <p class="text-sm">
+              <span>1:27:47 pm</span> / <span>00:01:01:548</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">See all projects that are in a locality</h5>
+<span class='badge badge-success'>11.13.2024 1:27:47 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:28:49 pm</span>
+<span class='badge badge-default'>00:01:01:548</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=95</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="96"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate project and view all the details</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.SeeAllProjects.the_user_should_click_on_the_see_all_projects_button()">
+                <span>And the user should click on the see all projects button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project()">
+                <span>And the user should click on a project</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [New Projects in Whitefield, Bangalore: 241+ Pre Launch / Upcoming Projects in Whitefield] but found [New Projects in Whitefield, Bangalore: 238+ Pre Launch / Upcoming Projects in Whitefield]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.stepDefinition.SeeAllProjects.the_user_should_click_on_a_project(SeeAllProjects.java:34)
+	at ✽.the user should click on a project(file:///C:/Users/admin/eclipse-workspace/SprintMagicBricksMbAdvice/./src/test/resources/featurefiles/mbAdviceSeeAllProject.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.SeeAllProjects.click_on_the_amenities_link_and_return_to_the_project_details_page()">
+                <span>And click on the Amenities link and return to the project details page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.SeeAllProjects.click_on_the_specifications()">
+                <span>Then click on the Specifications</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="107"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sorting Localities</p>
+            <p class="text-sm">
+              <span>1:28:49 pm</span> / <span>00:01:59:178</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sorting Localities</h5>
+<span class='badge badge-success'>11.13.2024 1:28:49 pm</span>
+<span class='badge badge-danger'>11.13.2024 1:30:48 pm</span>
+<span class='badge badge-default'>00:01:59:178</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=107</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="108"><span class="badge log pass-bg mr-2">Pass</span>Sort localities by rating</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.SortingStep.the_user_should_be_able_to_sort_the_localities_using_rating()">
+                <span>Then the user should be able to sort the localities using rating</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.SortingStep.the_localities_sorted_by_rating_are_displayed()">
+                <span>And the localities sorted by rating are displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="117"><span class="badge log pass-bg mr-2">Pass</span>Sort localities by ranking</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_browser_is_open_and_the_url_is_navigating_to_the_webpage()">
+                <span>Given the browser is open and the URL is navigating to the webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_hovers_on_the_mb_advice_option()">
+                <span>When the user hovers on the MB Advice option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.the_user_should_be_able_to_see_sub_options_in_the_mb_advice()">
+                <span>And the user should be able to see sub-options in the MbAdvice</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MbAdviceOpen.user_should_be_click_on_localities_and_should_navigate_to_the_localities_in_banglore()">
+                <span>Then user should be click on localities and  should navigate to the localities in banglore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.SortingStep.the_user_should_be_able_to_sort_the_localities_using_ranking()">
+                <span>Then the user should be able to sort the localities using ranking</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.SortingStep.the_localities_sorted_by_ranking_are_displayed()">
+                <span>And the localities sorted by ranking are displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:28:46 pm</td>
+<td>
+<a href="#" class="linked" test-id='95' id='103'>And the user should click on a project</a>
+<div class="">
+<span class="badge badge-default">See all projects that are in a locality.Validate user is able to navigate project and view all the details.And the user should click on a project</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:21:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='30' id='52'>Then click on the 2 in the for sale section</a>
+<div class="">
+<span class="badge badge-default">Price Trends for sale.Validate user is able to navigate to price and trends and choose them for sale.Then click on the 2 in the for sale section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:23:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='30' id='63'>Then click on the 3 in the for sale section</a>
+<div class="">
+<span class="badge badge-default">Price Trends for sale.Validate user is able to navigate to price and trends and choose them for sale.Then click on the 3 in the for sale section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:25:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='30' id='74'>Then click on the 4 in the for sale section</a>
+<div class="">
+<span class="badge badge-default">Price Trends for sale.Validate user is able to navigate to price and trends and choose them for sale.Then click on the 4 in the for sale section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 13, 2024 01:14:40 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 13, 2024 01:30:48 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='62%'>
+<b>5</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='37%'><b>3</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='58%'><b>7</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='41%'><b>5</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>67</b> steps passed</small></div>
+<div>
+<small data-tooltip='6%'><b>5</b> steps failed,
+<b>8</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login":86.229,"Explore Locality":98.884,"MBAdvice Open":54.472,"Price Trends for sale":381.993,"Property worth":97.669,"Readmore about the localitiy":64.651,"See all projects that are in a locality":61.548,"Sorting Localities":119.178
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 7,
+failChild: 5,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 67,
+failGrandChild: 5,
+warningGrandChild: 0,
+skipGrandChild: 8,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
